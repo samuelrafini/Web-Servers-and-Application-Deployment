@@ -37,15 +37,7 @@ hbs.registerHelper('getCurrentYear', () => {
 });
 
 app.get('/', (req, res) => {
-  //res.send('<h1>Hello Express!</h1>');
-  // res.send({
-  //   name: 'Roger',
-  //   likes: [
-  //     'Programming',
-  //     'games',
-  //     'bitcoin'
-  //   ]
-  // });
+
   res.render('home.hbs', {
     pageTitle: 'Home Page',
     welcomeMessage: 'Welcome to my website',
@@ -77,3 +69,4 @@ app.get('/bad', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is up and on port ${port}`);
 });
+
