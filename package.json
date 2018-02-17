@@ -1,25 +1,16 @@
 {
-  "name": "webserver",
+  "name": "web-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.14.0",
-    "hbs": "^4.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samuelrafini/Web-Servers-and-Application-Deployment.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/samuelrafini/Web-Servers-and-Application-Deployment/issues"
-  },
-  "homepage": "https://github.com/samuelrafini/Web-Servers-and-Application-Deployment#readme"
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1"
+  }
 }
